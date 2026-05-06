@@ -17,7 +17,7 @@ This diagram represents the Active Directory home lab environment, including a D
                         └─────────┬────────────┘
                                   |
                                   |
-                         ┌────────▼────────┐
+                         ┌────────▼───────────┐
                          │  Domain Controller │
                          │      (DC01)        │
                          │ Windows Server 2022│
