@@ -8,7 +8,7 @@ This diagram represents the Active Directory home lab environment, including a D
 ## 📊 Diagram
 
 ```
-                           🌐 Internet (Optional)
+                           🌐 Internet
                                    |
                                    |
                         ┌──────────────────────┐
@@ -72,9 +72,7 @@ This diagram represents the Active Directory home lab environment, including a D
 ## 📌 Key Design Decisions
 
 - Domain Controller uses **static IP**  
-- All clients point to **DC as DNS server**  
-- Internal network is **isolated for security**  
-- Optional external NIC allows updates and internet access  
+- All clients point to **DC as DNS server**     
 
 ---
 
