@@ -25,7 +25,7 @@ This diagram represents the Active Directory home lab environment, including a D
                          │ AD DS + DNS + GPO  │
                          │ Domain:            │
                          │ khanihomelab.local │
-                         │ IP: 192.168.56.10  │
+                         │ IP: 192.168.19.131  │
                          └────────┬───────────┘
                                   |
                    Internal Network (Host-Only / Internal)
@@ -36,8 +36,9 @@ This diagram represents the Active Directory home lab environment, including a D
 │   CLIENT01     │                                │   CLIENT02      │
 │ Windows 11     │                                │ Windows 11      │
 ├────────────────┤                                ├─────────────────┤
-│ DHCP or Static │                                │ DHCP or Static  │
-│ DNS: 192.168.56.10 │                            │ DNS: 192.168.56.10 │ 
+│     Static     │                                │ DHCP or Static  │
+│ preferred DNS: 172.0.0.1 │                      │ DNS: 192.168.19.131 │
+│ Alternate DNS: 8.8.8.8 │                        │ Alternate: 8.8.8.8 │
 │ Domain Joined  │                                │ Domain Joined   │
 └────────────────┘                                └─────────────────┘
 ```
@@ -48,7 +49,7 @@ This diagram represents the Active Directory home lab environment, including a D
 
 | Component          | IP Address     | Role                  |
 |-------------------|---------------|------------------------|
-| Domain Controller | 192.168.56.10 | AD DS, DNS, GPO        |
+| Domain Controller | 192.168.19.131 | AD DS, DNS, GPO        |
 | Client Machines   | DHCP / Static | Domain Members         |
 
 ---
