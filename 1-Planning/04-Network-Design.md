@@ -7,22 +7,22 @@ This lab uses a simple internal network to allow communication between the Domai
 
 ## 📡 Network Configuration
 
-| Component          | IP Address     | Role                  |
-|-------------------|---------------|------------------------|
-| Domain Controller | 192.168.56.10 | DNS, AD DS             |
-| Client Machine    | 192.168.56.20 | Domain Member          |
+| Component         | IP Address     | Role                   |
+|-------------------|--------------- |------------------------|
+| Domain Controller | 192.168.19.131 | DNS, AD DS             |
+| Client Machine    | 192.168.19.139 | Domain Member          |
 
 ---
 
 ## 🧭 Subnet Details
-- Network: 192.168.56.0/24
+- Network: 192.168.19.0/24
 - Subnet Mask: 255.255.255.0
 - Gateway: (Optional depending on setup)
 
 ---
 
 ## 🔑 DNS Configuration
-- Primary DNS: Domain Controller IP (192.168.56.10)
+- Primary DNS: Domain Controller IP (192.168.19.131)
 - Required for domain join and authentication
 
 ---
