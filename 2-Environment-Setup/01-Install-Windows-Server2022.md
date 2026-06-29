@@ -1,9 +1,11 @@
-🛠️ Windows Server 2022 Setup
+<h1 align="Left">🛠️ Windows Server 2022 Setup</h1>
+
 In this stage, I installed Windows Server 2022 to be promoted and configured as the Domain Controller (DC) for my homelab environment. This process included the creation a new virtual machine in VMware Workstation Pro and installing Windows Server 2022 OS. 
 
 ---
 
-💾 1. Installation
+<h2 align="Left"> 💾 1. Installation></h2>
+
 - Created a new virtual machine in VMware Workstation Pro with the following specs:
 
     * 60 GB virtual hard drive
