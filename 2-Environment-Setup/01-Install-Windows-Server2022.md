@@ -8,7 +8,7 @@ In this stage, I installed Windows Server 2022 to be promoted and configured as 
 
 - Created a new virtual machine in VMware Workstation Pro with the following specs:
 
-    * **60 GB virtual hard drive**
+    * **60 GB Disk**
     <img width="426" height="429" alt="Step3" src="https://github.com/user-attachments/assets/19dd729c-d825-47e6-b5b2-1aac775113ab" />
 
     * **2 CPUs**
