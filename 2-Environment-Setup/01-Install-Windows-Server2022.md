@@ -9,9 +9,11 @@ In this stage, I installed Windows Server 2022 to be promoted and configured as 
     * 60 GB virtual hard drive
 <img width="426" height="429" alt="Step3" src="https://github.com/user-attachments/assets/5549b94d-c55c-4a10-b977-630704381c2a" />
 
+    
     * 2 CPUs
 <img width="758" height="714" alt="Step6" src="https://github.com/user-attachments/assets/eff5757d-9c11-4826-9675-b10bc9f07f4c" />
 
+    
     * 4 GB RAM
 <img width="755" height="713" alt="Step5" src="https://github.com/user-attachments/assets/07bae6f8-20c9-427e-8a0d-00685b70eedc" />
 
