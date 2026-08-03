@@ -36,7 +36,6 @@ After installing Windows Server 2022 OS, I performed the following initial confi
 - Configure the **Preferred DNS server** to point to itself using the local loopback address or the static IP address, in my case I used my local loopback address: ```127.0.0.1```
 
   <img width="1019" height="765" alt="Screenshot 2026-08-03 154716" src="https://github.com/user-attachments/assets/6ef1bc34-af3c-4ce0-80bf-c66ef47f2b3f" />
-  <img width="1020" height="766" alt="Screenshot 2026-06-29 133332" src="https://github.com/user-attachments/assets/8095f1f3-f6bf-4820-934c-3e42c62ec2b3" />
 
 
 ---
@@ -45,7 +44,9 @@ After installing Windows Server 2022 OS, I performed the following initial confi
 
 - Open **Server Manager** and select **Add Roles and Features**
 - Install the **Active Directory Domain Services** role
+
   <img width="1024" height="769" alt="Screenshot 2026-08-03 155312" src="https://github.com/user-attachments/assets/565bc624-34ce-4d1f-9b8a-b0bd63f21f89" />
+  <img width="1020" height="766" alt="Screenshot 2026-06-29 133332" src="https://github.com/user-attachments/assets/8095f1f3-f6bf-4820-934c-3e42c62ec2b3" />
   
 --- 
 
